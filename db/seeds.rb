@@ -9,3 +9,5 @@
 bjj = Category.create(name: "BJJ")
 lifting_weights = Category.create(name: "Lifting")
 bodyweight = Category.create(name: "Bodyweight")
+
+Workout.create(title: "Upper Body Compound Lifts", description: "3 sets. 6-8 reps. bench press, bent over row, overhead press, lat pull down", category_id: lifting_weights.id)
